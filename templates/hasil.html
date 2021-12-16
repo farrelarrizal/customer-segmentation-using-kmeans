@@ -1,0 +1,54 @@
+{% extends 'base.html' %}  
+   
+{% block head %}  
+    <title>Spotify Clustering</title>  
+{% endblock %}  
+ 
+{% block body %}  
+<div class="container-contact100">  
+    <div class="wrap-contact100">  
+        <form class="contact100-form validate-form" action="/" method="GET">  
+            {% if finalData == 2 %}  
+                <span class="contact100-form-title">  
+                    You love slow and instrumental music style
+                    <h5>Similar songs : <h5> 
+                        <p>WHEN I WAS OLDER by Billie Eilish <br>
+                        <p>Wading in dreams by Elevie J
+                </span>
+            {% elif finalData == 1 %} 
+                <span class="contact100-form-title">  
+                    You love high acousticnesss song
+                </span>
+                <h5>Similar songs : <h5>
+                    <p>More Hearts Than Mine by Ingrid Andress <br>
+                    <p>All around me by Justin Bieber
+
+            {% elif finalData == 0 %}  
+                <span class="contact100-form-title">  
+                    You love songs with happy vibes
+                </span>
+                <h5>Similar songs : <h5>
+                    <p>homecoming queen? by Kelsea Ballerini<br>
+                    <p>Skechers (feat. Tyga) - Remix by DripReport and Tyga
+            {%  else %}
+                <span class="contact100-form-title">  
+                    None
+                </span>
+            {% endif %}
+   
+            <div class="container-contact100-form-btn">  
+                <div class="wrap-contact100-form-btn">  
+                    <div class="contact100-form-bgbtn"></div>  
+                    <button class="contact100-form-btn">  
+                        <span>  
+                            Selesai  
+                        </span>  
+                    </button>  
+                    </div>  
+                </div>  
+            </div>   
+        </form>  
+    </div>  
+</div>  
+  
+{% endblock %}  
