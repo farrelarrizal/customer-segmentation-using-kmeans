@@ -208,11 +208,11 @@ iframe {
     justify-content: center;
     align-items: center;
     padding: 15px;
-    background: #1ED761;
+    background: #1d0eee;
 }
 
 .wrap-contact100 {
-    width: 500px;
+    width: 65%;
     background: #fff;
     border-radius: 10px;
     overflow: hidden;
@@ -344,7 +344,7 @@ textarea.input100 {
     z-index: -1;
     width: 300%;
     height: 100%;
-    background: #0c0c0c;
+    background: #6db1ff;
     top: 0;
     left: -100%;
     -webkit-transition: all 0.4s;

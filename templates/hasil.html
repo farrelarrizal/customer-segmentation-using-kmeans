@@ -8,31 +8,55 @@
 <div class="container-contact100">  
     <div class="wrap-contact100">  
         <form class="contact100-form validate-form" action="/" method="GET">  
-            {% if finalData == 2 %}  
-                <span class="contact100-form-title">  
-                    You love slow and instrumental music style
-                    <h5>Similar songs : <h5> 
-                        <p>WHEN I WAS OLDER by Billie Eilish <br>
-                        <p>Wading in dreams by Elevie J
-                </span>
-            {% elif finalData == 1 %} 
-                <span class="contact100-form-title">  
-                    You love high acousticnesss song
-                </span>
-                <h5>Similar songs : <h5>
-                    <p>More Hearts Than Mine by Ingrid Andress <br>
-                    <p>All around me by Justin Bieber
+            {% if result == 2 %}  
+                    <span class="contact100-form-title">  
+                        <h5>Hasil Prediksi:</h5><br> 
+                        <div class="container d-flex ">
+                            <div class="row"><img style="width: 30%;" src="https://drive.google.com/uc?export=view&id=1Oa2Zj4ldu6qH2cy5bTttgArlwGErvAD5" alt="" srcset=""></div>
+                            <div class="row" >
+                                <p>The Customer Segmentation is : </p>
+                                <h6>Mid Value Customer </h6>
+                            </div>
+                        </div>
+                    </span>
+            {% elif result == 1 %} 
+                    <span class="contact100-form-title">  
+                        <h5>Hasil Prediksi:</h5><br> 
+                        <div class="container d-flex ">
+                            <div class="row"><img style="width: 30%;" src="https://drive.google.com/uc?export=view&id=1Oa2Zj4ldu6qH2cy5bTttgArlwGErvAD5" alt="" srcset=""></div>
+                            <div class="row" >
+                                <p>The Customer Segmentation is : </p>
+                                <h6>Mid Value Customer </h6>
+                            </div>
+                        </div>
+                    </span>
 
-            {% elif finalData == 0 %}  
-                <span class="contact100-form-title">  
-                    You love songs with happy vibes
-                </span>
-                <h5>Similar songs : <h5>
-                    <p>homecoming queen? by Kelsea Ballerini<br>
-                    <p>Skechers (feat. Tyga) - Remix by DripReport and Tyga
+            {% elif result == 0 %}  
+                    <span class="contact100-form-title">  
+                        <h5>Hasil Prediksi:</h5><br> 
+                        <div class="container d-flex ">
+                            <div class="row"><img style="width: 30%;" src="https://drive.google.com/uc?export=view&id=1gyKEQ8Tv3j82pKOPa10ksEuUdeSRg04r" alt="" srcset=""></div>
+                            <div class="row" >
+                                <p>The Customer Segmentation is : </p>
+                                <h6 style="color: rgb(219, 6, 6);">Low Value Customer </h6>
+                            </div>
+                        </div>
+                    </span>
+            {% elif result == 3 %}  
+                    <span class="contact100-form-title">  
+                        <h5>Hasil Prediksi:</h5><br> 
+                        <div class="container d-flex ">
+                            <div class="row"><img style="width: 30%;" src="https://drive.google.com/uc?export=view&id=1Oa2Zj4ldu6qH2cy5bTttgArlwGErvAD5" alt="" srcset=""></div>
+                            <div class="row" >
+                                <p>The Customer Segmentation is : </p>
+                                <h6 style="color: rgb(31, 175, 31);">High Value Customer </h6>
+                            </div>
+                        </div>
+                    </span>
+
             {%  else %}
                 <span class="contact100-form-title">  
-                    None
+                    Undefined
                 </span>
             {% endif %}
    
@@ -41,7 +65,7 @@
                     <div class="contact100-form-bgbtn"></div>  
                     <button class="contact100-form-btn">  
                         <span>  
-                            Selesai  
+                            Prediksi Customer Selanjutnya!  
                         </span>  
                     </button>  
                     </div>  

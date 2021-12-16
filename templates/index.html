@@ -1,7 +1,7 @@
 {% extends 'base.html' %}  
     
 {% block head %}  
-    <title>Spotify Clustering</title>  
+    <title>Customer Segmentation</title>  
 {% endblock %}  
     
 {% block body %}  
@@ -9,49 +9,29 @@
     <div class="wrap-contact100">  
         <form class="contact100-form validate-form" action="/" method="POST">  
             <span class="contact100-form-title">  
-                Clustering Lagu Spotify 
+                <div class="container justify-content-center">
+                    <div class="row" ><img style="width: 20%;" src="https://drive.google.com/uc?export=view&id=1OpHoAPp25TRB3anIUw6niiyX4XuHCnCU" alt="" srcset=""></div>
+                    <div class="row">Welcome to Online Retail Customer Segmentation!</div>
+                </div>
+
             </span>  
     
             <div class="wrap-input100 validate-input">  
-                <span class="label-input100">acousticness</span>  
-                <input class="input100" type="text" placeholder="Masukan acousticness" name="acousticness" id="acousticness" required>  
+                <span class="label-input100">recency</span>  
+                <input class="input100" type="text" placeholder="Masukan recency" name="recency" id="recency" required>  
                 <span class="focus-input100"></span>  
             </div>  
     
             <div class="wrap-input100 validate-input" >  
-                <span class="label-input100">danceability</span>  
-                <input class="input100" type="text" placeholder="Masukan danceability" name="danceability" id="danceability" required>  
+                <span class="label-input100">frequency</span>  
+                <input class="input100" type="text" placeholder="Masukan frequency" name="frequency" id="frequency" required>  
                 <span class="focus-input100"></span>  
             </div>  
             <div class="wrap-input100 validate-input" >  
-                <span class="label-input100">energy</span>  
-                <input class="input100" type="text" placeholder="Masukan energy" name="energy" id="energy" required>  
+                <span class="label-input100">Total Sales :</span>  
+                <input class="input100" type="text" placeholder="Masukan monetary" name="monetary" id="monetary" required>  
                 <span class="focus-input100"></span>  
             </div>  
-    
-            <div class="wrap-input100 validate-input" >  
-                <span class="label-input100">instrumentalness</span>  
-                <input class="input100" type="text" placeholder="Masukan instrumentalness" name="instrumentalness" id="instrumentalness" required>  
-                <span class="focus-input100"></span>  
-            </div>  
-    
-            <div class="wrap-input100 validate-input" >  
-                <span class="label-input100">speechiness</span>  
-                <input class="input100" type="text" placeholder="Masukan speechiness" name="speechiness" id="speechiness" required>  
-                <span class="focus-input100"></span>  
-            </div>  
-    
-            <div class="wrap-input100 validate-input" >  
-                <span class="label-input100">valence</span>  
-                <input class="input100" type="text" placeholder="Masukan valence" name="valence" id="valence" required>  
-                <span class="focus-input100"></span>  
-            </div>  
-    
-            <div class="wrap-input100 validate-input" >  
-                <span class="label-input100">liveness</span>  
-                <input class="input100" type="text" placeholder="Masukan liveness" name="liveness" id="liveness" required>  
-                <span class="focus-input100"></span>  
-            </div>
             <div class="container-contact100-form-btn">  
                 <div class="wrap-contact100-form-btn">  
                     <div class="contact100-form-bgbtn"></div>  
@@ -69,4 +49,4 @@
     </div>  
 </div>  
     
-{% endblock %}  
+{% endblock %}
